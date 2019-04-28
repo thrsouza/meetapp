@@ -1,0 +1,59 @@
+{
+  "name": "meetapp-api",
+  "version": "1.0.0",
+  "adonis-version": "4.1.0",
+  "description": "Meetapp API for Rocketseat Final Challenge",
+  "main": "index.js",
+  "scripts": {
+    "db:configure": "yarn run:migration && yarn run:seeders",
+    "db:rollback": "yarn run:migration-down",
+    "run:migration": "node ace migration:run",
+    "run:migration-down": "node ace migration:rollback",
+    "run:seeders": "node ace seed",
+    "start": "node server.js",
+    "start:dev": "adonis serve --dev",
+    "test": "node ace test"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis-app",
+    "meetup",
+    "meetup-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "^5.0.8",
+    "@adonisjs/antl": "^2.0.7",
+    "@adonisjs/auth": "^3.0.7",
+    "@adonisjs/bodyparser": "^2.0.5",
+    "@adonisjs/cors": "^1.0.7",
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/framework": "^5.0.9",
+    "@adonisjs/ignitor": "^2.0.8",
+    "@adonisjs/lucid": "^6.1.3",
+    "@adonisjs/mail": "^3.0.9",
+    "@adonisjs/redis": "^2.0.7",
+    "@adonisjs/validator": "^5.0.6",
+    "@adonisjs/vow": "^1.0.17",
+    "adonis-kue": "^5.0.1",
+    "moment": "^2.24.0",
+    "pg": "^7.9.0",
+    "raven": "^2.6.4",
+    "uuid": "^3.3.2",
+    "youch": "^2.0.10"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "sqlite3": "^4.0.6"
+  },
+  "autoload": {
+    "App": "./app"
+  }
+}
