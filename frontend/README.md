@@ -10,7 +10,7 @@ This project was created to Rocketseat final challenge.
 $ yarn start || npm start
 ```
 
-<b>PS:</b> The back-end should started as [http://localhost:3333](http://localhost:3333).
+<b>PS:</b> The back-end should be started as [http://localhost:3333](http://localhost:3333).
 
 <br/>
 
