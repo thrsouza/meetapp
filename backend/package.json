@@ -38,7 +38,7 @@
     "@adonisjs/validator": "^5.0.6",
     "@adonisjs/vow": "^1.0.17",
     "adonis-kue": "^5.0.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "pg": "^7.9.0",
     "raven": "^2.6.4",
     "uuid": "^3.3.2",
